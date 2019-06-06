@@ -8,4 +8,4 @@ but that's just one option.
 Flashing is a bit harder, on Linux you can mount the USB dev into the container,
 on Windows I use some fancy scripts and tricks to flash over TCP :)
 
-A new image should be built daily, and available as cranphin/esp32-idf on Docker hub.
+A new image should be built daily, and available as [cranphin/esp32-idf](https://hub.docker.com/r/cranphin/esp32-idf) on Docker hub.
