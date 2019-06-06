@@ -1,5 +1,11 @@
+language: minimal
+
 services:
   - docker
 
 script:
   - docker build --no-cache -t cranphin/esp32-idf .
+
+after_success:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker push cranphin/esp32-idf
