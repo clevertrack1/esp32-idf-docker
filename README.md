@@ -1,4 +1,4 @@
-# esp32-idf-docker
+# esp32-idf-docker [![Build Status](https://travis-ci.com/cranphin/esp32-idf-docker.svg?branch=master)](https://travis-ci.com/cranphin/esp32-idf-docker)
 My esp32-idf building docker file
 
 This is a very basic Docker file + Travis build configuration which builds a esp32-idf Docker image.
